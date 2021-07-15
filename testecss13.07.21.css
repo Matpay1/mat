@@ -1,0 +1,51 @@
+body{
+background-image: url("ma.jpg");
+background-size:cover;
+background-attachment:fixed;
+text-align: center;
+}
+h1{
+  color: lightseagreen;
+  font-size: 60px;
+
+}
+h2{
+  color: gold;
+  font-family: impact;
+  text-transform:uppercase;
+  font-size: 40px;
+  text-shadow: 14px -14px 6px red
+
+}
+li{
+  color: lightgreen;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-transform: full-width;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 25px;
+}
+a{
+  text-align:justify;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: inherit;
+  outline: none;
+  text-decoration: none;
+  text-shadow: 2px -3px 5px ;
+}
+p{
+  text-align: justify;
+  text-align: center;
+  font-size: 18px;
+
+
+}
+span{
+  font-size: 7px;
+}
+
+#pt{
+  font-size: 7px;
+}

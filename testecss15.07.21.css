@@ -1,0 +1,134 @@
+body{
+  background-image: url("ma.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  margin: 30px 30px 30px 30px;
+  text-align: center;
+}
+
+h1{
+  color: lightseagreen;
+  font-size: 60px;
+  text-align: center;
+  border-radius: 20px;
+  border: 10px outset orangered;
+  box-shadow: 2px -2px 60px red;
+  margin: auto;
+  margin-bottom: 60px;
+  width: 80%;
+}
+
+h2{
+  color: gold;
+  font-family: impact;
+  text-transform:uppercase;
+  font-size: 40px;
+  text-shadow: 14px -14px 6px red;
+}
+
+li{
+  color: lightgreen;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-transform: full-width;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 25px;
+  border: 10px double powderblue;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin: auto;
+
+
+}
+
+a{
+  text-align:justify;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: inherit;
+  outline: none;
+  text-decoration: none;
+  text-shadow: 2px -3px 5px;
+}
+
+p{
+  font-size: 18px;
+}
+
+span{
+  font-size: 7px;
+}
+
+#pt{
+  font-size: 7px;
+}
+
+.div1{
+    box-shadow: 2px -2px 50px orange;
+    width: 40%;
+    text-align: center;
+    border: 10px solid orangered;
+    border-radius: 140px;
+    margin-left: 5px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+
+.div2{
+  box-shadow: 2px -2px 40px yellow;
+  width: 40%;
+  text-align: center;
+  border: 10px solid orangered;
+  border-radius: 140px;
+  margin-left: 800px;
+  margin-top: -4000px;
+  margin-bottom: 60px;
+  padding: 20px;
+
+}
+.div3{
+  box-shadow: 2px -2px 40px yellow;
+  width: 40%;
+  text-align: center;
+  border: 10px solid orangered;
+  border-radius: 140px;
+  margin-left: 800px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding: 20px;
+
+}
+
+
+@media screen and (min-width : 1080px){
+  body{
+    background-image: url("ma.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+
+  }
+}
+@media screen and (min-width : 720px) and (max-width : 1079px){
+  body{
+    background-image: url("pp2.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+
+  }
+}
+@media screen and (max-width : 719px){
+  body{
+    background-image: url("pp.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    margin: 10px 10px 10px 0px;
+    text-align: center;
+
+  }
+}
